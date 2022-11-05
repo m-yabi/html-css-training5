@@ -1,1 +1,45 @@
 @import "_settings.scss";
+.header {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  @include pc {
+    background-image: url(/img/mainvisual.jpeg);
+    background-size: cover; /* 全画面 */
+    background-attachment: fixed; /* 固定 */
+    background-position: center center; /* 縦横中央 */
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+}
+.header__logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  max-width: 466px;
+  img {
+    width: 100%;
+  }
+}
+.header__menu {
+  color: white;
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #12121229;
+  padding: 15px 15px;
+}
+.header__list {
+  display: flex;
+  justify-content: right;
+  li {
+    margin-right: 24px;
+    &:hover {
+      color: red;
+      transition: 0.5s;
+    }
+  }
+}
