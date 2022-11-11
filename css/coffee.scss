@@ -153,7 +153,7 @@
 .menulist__right-top,
 .menulist__right-bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   font-size: 14.4px;
   dt {
@@ -178,6 +178,11 @@
 }
 .menu__left {
   border-right: 1px solid black;
+}
+.menulist__right {
+  @include pc {
+    padding-left: 45px;
+  }
 }
 .menulist__right-top {
   @include pc {

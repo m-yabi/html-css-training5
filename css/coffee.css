@@ -272,7 +272,7 @@ img {
 .menulist__right-top,
 .menulist__right-bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   font-size: 14.4px;
 }
@@ -314,6 +314,12 @@ img {
 
 .menu__left {
   border-right: 1px solid black;
+}
+
+@media (min-width: 751px) {
+  .menulist__right {
+    padding-left: 45px;
+  }
 }
 
 @media (min-width: 751px) {
