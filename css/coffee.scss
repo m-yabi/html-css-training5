@@ -3,7 +3,7 @@
   width: 100%;
   position: relative;
   min-height: 100vh;
-  background-image: url(/img/mainvisual.jpeg);
+  background-image: url(img/mainvisual.jpeg);
   background-size: cover; /* 全画面 */
   background-attachment: fixed; /* 固定 */
   background-position: center center; /* 縦横中央 */
@@ -69,7 +69,7 @@
 }
 
 .img1 {
-  background-image: url(/img/menu.jpg);
+  background-image: url(img/menu.jpg);
   margin-top: 20px;
   @include pc {
     margin-bottom: 90px;
@@ -79,7 +79,7 @@
   }
 }
 .img2 {
-  background-image: url(/img/about.jpg);
+  background-image: url(img/about.jpg);
   @include pc {
     margin-top: 150px;
     margin-bottom: 83px;
@@ -92,7 +92,7 @@
   }
 }
 .img3 {
-  background-image: url(/img/location.jpg);
+  background-image: url(img/location.jpg);
   @include pc {
     margin-top: 150px;
     margin-bottom: 83px;
