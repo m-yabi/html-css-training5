@@ -312,8 +312,10 @@ img {
   }
 }
 
-.menu__left {
-  border-right: 1px solid black;
+@media (min-width: 751px) {
+  .menu__left {
+    border-right: 1px solid black;
+  }
 }
 
 @media (min-width: 751px) {

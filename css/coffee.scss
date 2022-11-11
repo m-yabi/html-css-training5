@@ -177,7 +177,9 @@
   }
 }
 .menu__left {
-  border-right: 1px solid black;
+  @include pc {
+    border-right: 1px solid black;
+  }
 }
 .menulist__right {
   @include pc {
