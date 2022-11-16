@@ -72,7 +72,7 @@ img {
   width: 100%;
   position: relative;
   min-height: 100vh;
-  background-image: url(img/mainvisual.jpeg);
+  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/mainvisual.jpeg?raw=true);
   background-size: cover; /* 全画面 */
   background-attachment: fixed; /* 固定 */
   background-position: center center; /* 縦横中央 */
