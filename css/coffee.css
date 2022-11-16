@@ -154,7 +154,7 @@ img {
 }
 
 .img1 {
-  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/menu.jpg);
+  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/menu.jpg?raw=true);
   margin-top: 20px;
 }
 @media (min-width: 751px) {
@@ -169,7 +169,7 @@ img {
 }
 
 .img2 {
-  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/about.jpg);
+  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/about.jpg?raw=true);
 }
 @media (min-width: 751px) {
   .img2 {
@@ -187,7 +187,7 @@ img {
 }
 
 .img3 {
-  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/location.jpg);
+  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/location.jpg?raw=true);
 }
 @media (min-width: 751px) {
   .img3 {

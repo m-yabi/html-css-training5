@@ -69,7 +69,7 @@
 }
 
 .img1 {
-  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/menu.jpg);
+  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/menu.jpg?raw=true);
   margin-top: 20px;
   @include pc {
     margin-bottom: 90px;
@@ -79,7 +79,7 @@
   }
 }
 .img2 {
-  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/about.jpg);
+  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/about.jpg?raw=true);
   @include pc {
     margin-top: 150px;
     margin-bottom: 83px;
@@ -92,7 +92,7 @@
   }
 }
 .img3 {
-  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/location.jpg);
+  background-image: url(https://github.com/m-yabi/html-css-training5/blob/main/img/location.jpg?raw=true);
   @include pc {
     margin-top: 150px;
     margin-bottom: 83px;
