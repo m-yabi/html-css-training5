@@ -33,7 +33,7 @@ textarea {
 meter {
   -webkit-appearance: revert;
   -moz-appearance: revert;
-  appearance: revert;
+       appearance: revert;
 }
 
 ::-moz-placeholder {
@@ -59,7 +59,7 @@ meter {
   -webkit-line-break: after-white-space;
 }
 
-:where([draggable="true"]) {
+:where([draggable=true]) {
   -webkit-user-drag: element;
 }
 
@@ -78,7 +78,7 @@ img {
   background-position: center center; /* 縦横中央 */
   background-repeat: no-repeat;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .header__logo {
@@ -257,13 +257,13 @@ img {
 }
 @media (min-width: 751px) {
   .menu__left,
-  .menu__right {
+.menu__right {
     width: 45%;
   }
 }
 @media (max-width: 750px) {
   .menu__left,
-  .menu__right {
+.menu__right {
     width: 100%;
   }
 }
@@ -286,8 +286,8 @@ img {
 }
 @media (max-width: 750px) {
   .menulist__left dt,
-  .menulist__right-top dt,
-  .menulist__right-bottom dt {
+.menulist__right-top dt,
+.menulist__right-bottom dt {
     width: 85%;
   }
 }
@@ -299,15 +299,15 @@ img {
 }
 @media (min-width: 751px) {
   .menulist__left dd,
-  .menulist__right-top dd,
-  .menulist__right-bottom dd {
+.menulist__right-top dd,
+.menulist__right-bottom dd {
     padding-right: 35px;
   }
 }
 @media (max-width: 750px) {
   .menulist__left dd,
-  .menulist__right-top dd,
-  .menulist__right-bottom dd {
+.menulist__right-top dd,
+.menulist__right-bottom dd {
     width: 10%;
   }
 }
@@ -426,4 +426,4 @@ footer {
   margin-top: 190px;
   text-align: center;
   font-size: 10px;
-} /*# sourceMappingURL=coffee.css.map */
+}/*# sourceMappingURL=coffee.css.map */
